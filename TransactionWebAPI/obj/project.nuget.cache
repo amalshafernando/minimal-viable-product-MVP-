@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "3RMiN248zcqQ7eDBZkG6LarCBbaUyN0FgUSorbO2XiSfVuXxwguMltKMFbhoyEHgeSPJc91UABoxoB3wd93V5g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Imanthi(ImanthiWickr\\source\\repos\\MTIT_Assignment_3\\TransactionWebAPI\\TransactionWebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Imanthi(ImanthiWickr\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Imanthi(ImanthiWickr\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Imanthi(ImanthiWickr\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Imanthi(ImanthiWickr\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Imanthi(ImanthiWickr\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Imanthi(ImanthiWickr\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

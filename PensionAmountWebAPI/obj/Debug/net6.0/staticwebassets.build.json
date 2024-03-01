@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zMCZbMgRDapXkNW8qnZ7J3dUcHT+oZ8Tys6n574SIRA=",
+  "Source": "PensionAmountWebAPI",
+  "BasePath": "_content/PensionAmountWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

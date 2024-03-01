@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "poRJ2wHAdrTsBYCt1ryrg1vIOPKbMHiZITKe8+yKa+U=",
+  "Source": "GoldLoanWebAPI",
+  "BasePath": "_content/GoldLoanWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

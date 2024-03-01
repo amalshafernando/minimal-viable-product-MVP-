@@ -1,0 +1,133 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5211"
+  },
+  "Routes": [
+    {
+      // CustomerWebAPI Routes
+      "UpstreamPathTemplate": "/gateway/customer",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "DownstreamPathTemplate": "/api/customer",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5284
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/customer/{Id}",
+      "UpstreamHttpMethod": [ "Get", "Put", "Delete" ],
+      "DownstreamPathTemplate": "/api/customer/{Id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5284
+        }
+      ]
+    },
+    // GoldLoanWebAPI Routes
+    {
+      "UpstreamPathTemplate": "/gateway/loan",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "DownstreamPathTemplate": "/api/loan",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5297
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/loan/{Id}",
+      "UpstreamHttpMethod": [ "Get", "Put", "Delete" ],
+      "DownstreamPathTemplate": "/api/loan/{Id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5297
+        }
+      ]
+    },
+    // PensionAmountWebAPI Route
+    {
+      "UpstreamPathTemplate": "/gateway/pension",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/pension",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5062
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/pension/{Id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/pension/{Id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5062
+        }
+      ]
+    },
+    //CustomerPension WebAPI Routes
+
+    {
+      "UpstreamPathTemplate": "/gateway/customer_pension",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "DownstreamPathTemplate": "/api/customer_pension",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5042
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/customer_pension/{Id}",
+      "UpstreamHttpMethod": [ "Get", "Put", "Delete" ],
+      "DownstreamPathTemplate": "/api/customer_pension/{Id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5042
+        }
+      ]
+    },
+    //Transaction Web API Routes
+    {
+      "UpstreamPathTemplate": "/gateway/transaction",
+      "UpstreamHttpMethod": [ "Get", "POST" ],
+      "DownstreamPathTemplate": "/api/transaction",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5176
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/transaction/{Id}",
+      "UpstreamHttpMethod": [ "Get", "PUT", "DELETE" ],
+      "DownstreamPathTemplate": "/api/transaction/{Id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5176
+        }
+      ]
+    }
+  ]
+}             
